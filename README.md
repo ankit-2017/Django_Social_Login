@@ -8,7 +8,7 @@ Run following command in cmd or terminal
 After installing app create a django project open settings.py file then add app in INSTALLED APP
 
 ### INSATALLED_APPS = [
-<span style="color:red">hello </span>
+
     'login_app',    <-- this app you will create in your project 
     'social_django',     <--  installed app
 ]
