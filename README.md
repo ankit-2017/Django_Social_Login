@@ -2,19 +2,19 @@
 
 install social_django app in your system
 Run following command in cmd or terminal
-'''sh
-    pip install social_django
-'''sh
+
+    **_pip install social_django_**
+
 
 After installing app create a django project open settings.py file then add app in INSTALLED APP
 
-###INSATALLED_APPS = [
-      '''sh
-      ....some app......,
+### INSATALLED_APPS = [
+      '''
+      <!--....some app......,-->
 
-      'login_app',   <-- this app you will create in your project 
-      'social_django',    <--  installed app
-      '''sh
+      'login_app',   <!--<-- this app you will create in your project -->
+      'social_django',   <!-- <--  installed app -->
+      '''
 
 ]
 
