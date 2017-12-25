@@ -7,13 +7,13 @@ pip install social_django
 
 After installing app create a django project open settings.py file then add app in INSTALLED APP
 
-INSATALLED_APPS = [
-      
+###INSATALLED_APPS = [
+      '''sh
       ....some app......,
 
       'login_app',   <-- this app you will create in your project 
-
       'social_django',    <--  installed app
+      '''sh
 
 ]
 
