@@ -33,6 +33,8 @@ MIDDLEWARE_CLASSES = [
 
     'social_django.middleware.SocialAuthExceptionMiddleware',  # <--
 ]
+
+
 Add following last two lines of _social_django_ context processor
 ### TEMPLATES = [
 
@@ -53,6 +55,8 @@ Add following last two lines of _social_django_ context processor
         },
     },
 ]
+
+
 Add following social provider in your **AUTHENTICATION_BACKENDS**
 
 ### AUTHENTICATION_BACKENDS = (
@@ -86,6 +90,7 @@ In urls.py add social django app urls
     
     ---other urls---
 ]
+
 
 Create a html page with a link to redirect to google authentication page
 in social_login.html
