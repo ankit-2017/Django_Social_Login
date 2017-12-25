@@ -3,14 +3,14 @@
 install social_django app in your system
 Run following command in cmd or terminal
 ## Installation
-##### **pip install social-auth-app-django**
+#### **pip install social-auth-app-django**
 
 After installing app create a django project open settings.py file then add app in INSTALLED APP
 
 ### INSATALLED_APPS = [
-[comment]: # (....some app......)
-**'login_app'**,    <-- this app you will create in your project 
-**'social_django'**,     <--  installed app
+
+    'login_app',    <-- this app you will create in your project 
+    'social_django',     <--  installed app
 ]
 
 Now apply migration 
